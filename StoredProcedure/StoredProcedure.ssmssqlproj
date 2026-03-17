@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
-<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="DDL">
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="StoredProcedure">
   <Items>
     <LogicalFolder Name="Connections" Type="2" Sorted="true">
       <Items>
         <ConnectionNode Name="DESKTOP-I7SPEDL\SQLEXPRESS:DESKTOP-I7SPEDL\ASUS">
-          <Created>2026-02-28T20:40:50.1048802+03:00</Created>
+          <Created>2026-03-14T19:06:58.8344239+03:00</Created>
           <Type>SQL</Type>
           <Server>DESKTOP-I7SPEDL\SQLEXPRESS</Server>
           <UserName />
           <Authentication>Windows Authentication</Authentication>
-          <InitialDB>PV_522</InitialDB>
+          <InitialDB />
           <LoginTimeout>30</LoginTimeout>
           <TrustServerCertificate>True</TrustServerCertificate>
           <HostNameInServerCertificate />
@@ -22,53 +22,59 @@
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
-        <FileNode Name="SQLQuery1-CREATE DATABASE.sql">
+        <FileNode Name="SQLQuery - CHECK.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-I7SPEDL\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-I7SPEDL\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQuery1-CREATE DATABASE.sql</FullPath>
+          <FullPath>SQLQuery - CHECK.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQuery1-DROP DATABASE.sql">
+        <FileNode Name="SQLQuery1 - SelectDisciplineFromSchedule.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-I7SPEDL\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-I7SPEDL\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQuery1-DROP DATABASE.sql</FullPath>
+          <FullPath>SQLQuery1 - SelectDisciplineFromSchedule.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQuery2-CRAETE STUDENTS BRANCH.sql">
+        <FileNode Name="SQLQuery1 - SelectSchedule.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-I7SPEDL\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-I7SPEDL\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQuery2-CRAETE STUDENTS BRANCH.sql</FullPath>
+          <FullPath>SQLQuery1 - SelectSchedule.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQuery3-CREATE STUDENTS .sql">
+        <FileNode Name="SQLQuery2 - InsertLesson.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-I7SPEDL\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-I7SPEDL\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQuery3-CREATE STUDENTS .sql</FullPath>
+          <FullPath>SQLQuery2 - InsertLesson.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQuery4-CREATE DISCIPLINE BRANCH.sql">
+        <FileNode Name="SQLQuery2-sp_InsertSchedule PROC.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-I7SPEDL\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-I7SPEDL\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQuery4-CREATE DISCIPLINE BRANCH.sql</FullPath>
+          <FullPath>SQLQuery2-sp_InsertSchedule PROC.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQuery4-CREATE Schadule branch.sql">
+        <FileNode Name="SQLQuery-HW-CHECK.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-I7SPEDL\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-I7SPEDL\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQuery4-CREATE Schadule branch.sql</FullPath>
+          <FullPath>SQLQuery-HW-CHECK.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQuery5-ALL_IN_ONE.sql">
+        <FileNode Name="SQLQuery-HW-InsertLesson.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-I7SPEDL\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-I7SPEDL\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQuery5-ALL_IN_ONE.sql</FullPath>
+          <FullPath>SQLQuery-HW-InsertLesson.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQuery6 - Alter Schedule.sql">
+        <FileNode Name="SQLQuery-HW-InsertSchedule.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-I7SPEDL\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-I7SPEDL\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQuery6 - Alter Schedule.sql</FullPath>
+          <FullPath>SQLQuery-HW-InsertSchedule.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery-HW-SelectScheldue.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-I7SPEDL\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-I7SPEDL\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery-HW-SelectScheldue.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
